@@ -1,0 +1,1 @@
+ndjson-cat "census-data.json" | ndjson-split "d.slice(1)" > "broken-output.ndjson"

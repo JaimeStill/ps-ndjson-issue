@@ -1,0 +1,1 @@
+& ./create-census-ndjson.cmd "census-data.json" "census-data.ndjson" | Out-Null

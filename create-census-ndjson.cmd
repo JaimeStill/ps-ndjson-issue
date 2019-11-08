@@ -1,0 +1,1 @@
+ndjson-cat %1 | ndjson-split "d.slice(1)" | ndjson-map "{id: d[2] + d[3], DP02_0001E: +d[0]}" > %2
